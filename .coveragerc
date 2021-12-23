@@ -6,8 +6,8 @@ source = bigfood_db
 
 [paths]
 source =
-    src/
-    */site-packages/
+    bigfood_db/
+    site-packages/
 
 [report]
 # Regexes for lines to exclude from consideration

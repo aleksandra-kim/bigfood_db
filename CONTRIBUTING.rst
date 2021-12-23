@@ -236,7 +236,7 @@ package:
    are expecting. If you are trying to run CI scripts in a fork repository,
    make sure to push all the tags.
    You can also try to remove all the egg files or the complete egg folder, i.e.,
-   ``.eggs``, as well as the ``*.egg-info`` folders in the ``src`` folder or
+   ``.eggs``, as well as the ``*.egg-info`` folders in the ``bigfood_db`` folder or
    potentially in the root of your project.
 
 #. Sometimes |tox|_ misses out when new dependencies are added, especially to
