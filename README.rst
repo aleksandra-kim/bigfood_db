@@ -42,6 +42,26 @@ A longer description of your project goes here...
 
 .. _pyscaffold-notes:
 
+
+Get started
+===========
+1. create conda environment with python 3.9 by running
+
+   conda create -n <env_name> python=3.9
+
+2. activate this environment
+
+3. pip install -U setuptools setuptools_scm wheel
+
+4. git pull latest changes from the bigfood_db github repo
+
+5. navigate to that repo in your terminal and do an editable install
+
+   pip install -e .
+
+6. start running scripts in the dev folder
+
+
 Note
 ====
 

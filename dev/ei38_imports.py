@@ -23,4 +23,4 @@ if __name__ == '__main__':
     ag = Agribalyse13Importer(ag_path, ag_name)
     ag.statistics()
 
-    print([act['location'] for act in ei if 'market group for electricity' in act['name']])
+    # print(list(ag.unlinked))
