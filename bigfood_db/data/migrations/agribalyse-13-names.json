@@ -82,15 +82,39 @@
       }
     ],
     [
-      ["market for electricity, low voltage", "BR"],
+      ["market group electricity, low voltage"],
       {
-        "name": "market group for electricity, low voltage"
+        "name": "market for electricity, low voltage"
       }
     ],
     [
-      ["market for electricity, medium voltage", "BR"],
+      ["market group for electricity, medium voltage"],
       {
-        "name": "market group for electricity, medium voltage"
+        "name": "market for electricity, medium voltage"
+      }
+    ],
+    [
+      ["market for urea, as N"],
+      {
+        "name": "market for urea"
+      }
+    ],
+    [
+      ["urea production, as N"],
+      {
+        "name": "urea production"
+      }
+    ],
+    [
+      ["plywood production, for outdoor use"],
+      {
+        "name": "plywood production"
+      }
+    ],
+    [
+      ["plywood production, for indoor use"],
+      {
+        "name": "plywood production"
       }
     ]
   ]

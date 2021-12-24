@@ -23,4 +23,6 @@ if __name__ == '__main__':
     ag = Agribalyse13Importer(ag_path, ag_name)
     ag.statistics()
 
-    # print(list(ag.unlinked))
+    acts = {act['name'] for act in ag.unlinked if act['type']=='technosphere'}
+
+    print(list(ag.unlinked))

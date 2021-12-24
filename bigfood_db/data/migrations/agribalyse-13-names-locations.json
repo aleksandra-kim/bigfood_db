@@ -1,0 +1,101 @@
+{
+  "fields": ["name", "location"],
+  "data": [
+    [
+      ["market for electricity, medium voltage", "BR"],
+      {
+        "name": "market group for electricity, medium voltage"
+      }
+    ],
+    [
+      ["market for electricity, low voltage", "BR"],
+      {
+        "name": "market group for electricity, low voltage"
+      }
+    ],
+    [
+      ["market for transport, freight, lorry >32 metric ton, EURO4", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for transport, freight, lorry 16-32 metric ton, EURO3", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for transport, freight, lorry 16-32 metric ton, EURO4", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for transport, freight, lorry 16-32 metric ton, EURO5", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for transport, freight, lorry 7.5-16 metric ton, EURO3", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for transport, freight, lorry, unspecified", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for transport, freight, inland waterways, barge", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for transport, tractor and trailer, agricultural", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for lime", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for urea", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for iron sulfate", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["reinforcing steel production", "RER"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for propylene", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ],
+    [
+      ["market for hydrogen sulfide", "GLO"],
+      {
+        "location": "RoW"
+      }
+    ]
+  ]
+}

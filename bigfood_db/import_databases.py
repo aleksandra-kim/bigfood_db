@@ -23,6 +23,7 @@ def import_agribalyse_13(ag_path, ag_name="Agribalyse 1.3", ei_name=None):
         # ag.match_database()
         # ag.match_database(db_name='biosphere3', fields=('name', 'category', 'unit', 'location'))
         # ag.match_database(db_name=ei_name, fields=('name', 'unit', 'reference product', 'location'))
+        # ag.match_database(db_name=ei_name, fields=('name', 'unit', 'location'))
 
         assert ag.statistics()[2] == 0  # TODO where's all_linked property? check bw2io version
         ag.apply_strategies()

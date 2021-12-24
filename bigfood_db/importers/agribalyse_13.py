@@ -29,7 +29,9 @@ class Agribalyse13Importer(LCIImporter):
         db.apply_strategies()
         create_agribalyse_13_migrations()
         db.migrate('simapro-ecoinvent-3.3')
-        db.migrate('agribalyse-13')
+        db.migrate('agribalyse-13-names')
+        db.migrate('agribalyse-13-names-locations')
+        db.migrate('agribalyse-13-names-refproducts')
         db.apply_strategy(update_ecoinvent_locations)
 
         db.match_database()
