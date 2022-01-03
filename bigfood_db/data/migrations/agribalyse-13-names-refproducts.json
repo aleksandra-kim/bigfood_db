@@ -2,24 +2,18 @@
   "fields": ["name", "reference product"],
   "data": [
     [
-      ["market for urea"],
-      {
-        "reference product": "urea"
-      }
-    ],
-    [
-      ["urea production"],
-      {
-        "reference product": "urea"
-      }
-    ],
-    [
       [
         "sawing and planing, azobe, air dried",
         "sawnwood, azobe from sustainable forest management, planed, air dried"
       ],
       {
         "reference product": "sawnwood, azobe, dried (u=15%), planed"
+      }
+    ],
+    [
+      ["market for urea"],
+      {
+        "reference product": "urea"
       }
     ]
   ]

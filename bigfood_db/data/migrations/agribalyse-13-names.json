@@ -2,15 +2,17 @@
   "fields": ["name"],
   "data": [
     [
-      ["extrusion production, plastic film"],
+      ["Aluminium waste"],
       {
-        "name": "extrusion, plastic film"
+        "name": "market for waste aluminium",
+        "location": "GLO"
       }
     ],
     [
-      ["extrusion production, plastic pipes"],
+      ["Application of plant protection product, by field sprayer {GLO}| market for | Alloc Rec, S"],
       {
-        "name": "extrusion, plastic pipes"
+        "name": "market for application of plant protection product, by field sprayer",
+        "location": "GLO"
       }
     ],
     [
@@ -26,32 +28,111 @@
       }
     ],
     [
-      ["steam production in chemical industry"],
+      ["Coconut, husked {PH}| production | Alloc Rec, S"],
       {
-        "name": "steam production, in chemical industry",
-        "reference product": "steam, in chemical industry",
-        "unit": "kilogram",
-        "multiplier": 0.36363636363
+        "name": "coconut production, dehusked",
+        "location": "PH"
       }
     ],
     [
-      ["water production, completely softened, from decarbonised water, at user"],
+      ["extrusion production, plastic film"],
       {
-        "name": "water production, completely softened",
-        "reference product": "water, completely softened"
+        "name": "extrusion, plastic film"
       }
     ],
     [
-      ["market for water, decarbonised, at user"],
+      ["extrusion production, plastic pipes"],
       {
-        "name": "market for water, decarbonised",
-        "reference product": "water, decarbonised"
+        "name": "extrusion, plastic pipes"
       }
     ],
     [
-      ["textile production, jute"],
+      ["Grass seed, Swiss integrated production, for sowing {GLO}| market for | Alloc Rec, S"],
       {
-        "name": "textile production, jute, weaving"
+        "name": "market for grass seed, organic, for sowing",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["Gravel, crushed {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for gravel, crushed",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["Inert waste, for final disposal {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for inert waste, for final disposal",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["irrigation"],
+      {
+        "name": "market for irrigation"
+      }
+    ],
+    [
+      ["Land tenure, arable land, measured as carbon net primary productivity {MY}| clear-cutting, primary forest to arable land | Alloc Rec, S"],
+      {
+        "name": "market for land tenure, arable land, measured as carbon net primary productivity, perennial crop",
+        "location": "MY"
+      }
+    ],
+    [
+      ["Lime, packed {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for lime, packed",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["market for ammonia, liquid"],
+      {
+        "name": "market for ammonia, anhydrous, liquid"
+      }
+    ],
+    [
+      ["market for ammonium nitrate, as N"],
+      {
+        "name": "market for ammonium nitrate"
+      }
+    ],
+    [
+      ["market for ammonium sulfate, as N"],
+      {
+        "name": "market for ammonium sulfate"
+      }
+    ],
+    [
+      ["market for chemicals, inorganic"],
+      {
+        "name": "market for chemical, inorganic"
+      }
+    ],
+    [
+      ["market for heat and power co-generation unit construction, 6400kW thermal, building"],
+      {
+        "name": "market for heat and power co-generation unit, 6400kW thermal, building"
+      }
+    ],
+    [
+      ["market for heat and power co-generation unit construction, 6400kW thermal, common components for heat+electricity"],
+      {
+        "name": "market for heat and power co-generation unit, 6400kW thermal, common components for heat+electricity"
+      }
+    ],
+    [
+      ["market for heat and power co-generation unit construction, 6400kW thermal, components for electricity only"],
+      {
+        "name": "market for heat and power co-generation unit, 6400kW thermal, components for electricity only"
+      }
+    ],
+    [
+      ["market for potassium chloride, as K2O"],
+      {
+        "name": "market for potassium chloride"
       }
     ],
     [
@@ -62,47 +143,17 @@
       }
     ],
     [
-      ["transport, freight, sea, transoceanic ship"],
+      ["market for water, decarbonised, at user"],
       {
-        "name": "transport, freight, sea, container ship with reefer, cooling",
-        "reference product": "transport, freight, sea, container ship with reefer, cooling"
+        "name": "market for water, decarbonised",
+        "reference product": "water, decarbonised"
       }
     ],
     [
-      ["oxidation of manganese dioxide"],
+      ["Municipal waste collection service by 21 metric ton lorry {GLO}| market for | Alloc Rec, S"],
       {
-        "reference product": "potassium permanganate",
-        "multiplier": 0.09
-      }
-    ],
-    [
-      ["irrigation"],
-      {
-        "name": "market for irrigation"
-      }
-    ],
-    [
-      ["market group electricity, low voltage"],
-      {
-        "name": "market for electricity, low voltage"
-      }
-    ],
-    [
-      ["market group for electricity, medium voltage"],
-      {
-        "name": "market for electricity, medium voltage"
-      }
-    ],
-    [
-      ["market for urea, as N"],
-      {
-        "name": "market for urea"
-      }
-    ],
-    [
-      ["urea production, as N"],
-      {
-        "name": "urea production"
+        "name": "market for municipal waste collection service by 21 metric ton lorry",
+        "location": "GLO"
       }
     ],
     [
@@ -115,6 +166,83 @@
       ["plywood production, for indoor use"],
       {
         "name": "plywood production"
+      }
+    ],
+    [
+      ["Quicklime, milled, loose {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for quicklime, milled, loose",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["steam production in chemical industry"],
+      {
+        "name": "steam production, in chemical industry",
+        "reference product": "steam, in chemical industry",
+        "unit": "kilogram",
+        "multiplier": 0.36363636363
+      }
+    ],
+    [
+      ["steel production, converter, chromium steel 18/8"],
+      {
+        "name": "steel production, electric, chromium steel 18/8"
+      }
+    ],
+    [
+      ["textile production, jute"],
+      {
+        "name": "textile production, jute, weaving"
+      }
+    ],
+    [
+      ["transport, freight, sea, transoceanic ship"],
+      {
+        "name": "transport, freight, sea, container ship with reefer, cooling",
+        "reference product": "transport, freight, sea, container ship with reefer, cooling"
+      }
+    ],
+
+    [
+      ["urea production, as N"],
+      {
+        "name": "urea production"
+      }
+    ],
+    [
+      ["Waste mineral oil {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for waste mineral oil",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["Wastewater, average {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for wastewater, average",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["Wastewater, from residence {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for wastewater, from residence",
+        "location": "GLO"
+      }
+    ],
+    [
+      ["water production, completely softened, from decarbonised water, at user"],
+      {
+        "name": "water production, completely softened",
+        "reference product": "water, completely softened"
+      }
+    ],
+    [
+      ["Wood ash mixture, pure {GLO}| market for | Alloc Rec, S"],
+      {
+        "name": "market for wood ash mixture, pure",
+        "location": "GLO"
       }
     ]
   ]

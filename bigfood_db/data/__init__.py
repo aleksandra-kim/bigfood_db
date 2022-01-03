@@ -15,6 +15,7 @@ def get_agribalyse_13_names_locations_data():
         open(dirpath / "migrations" / "agribalyse-13-names-locations.json")
     )
 
+
 def get_agribalyse_13_names_refproducts_data():
     return json.load(
         open(dirpath / "migrations" / "agribalyse-13-names-refproducts.json")

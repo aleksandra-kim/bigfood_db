@@ -29,15 +29,17 @@ class Agribalyse13Importer(LCIImporter):
         db.apply_strategies()
         create_agribalyse_13_migrations()
         db.migrate('simapro-ecoinvent-3.3')
+        db = update_ecoinvent_locations(db)
         db.migrate('agribalyse-13-names')
         db.migrate('agribalyse-13-names-locations')
         db.migrate('agribalyse-13-names-refproducts')
-        db.apply_strategy(update_ecoinvent_locations)
+        # db.apply_strategy(update_ecoinvent_locations)
 
         db.match_database()
-        db.match_database(ei_name, fields=['reference product', 'name', 'location', 'unit'])
         db.match_database(ei_name, fields=['name', 'location', 'unit'])
-        db.match_database('biosphere3')
+        db.match_database(ei_name, fields=['reference product', 'name', 'location', 'unit'])
+        db.match_database(ei_name, fields=['name', 'location', 'unit'])  # this line should be executed twice!
+        db.match_database('biosphere3', fields=('name', 'category', 'unit', 'location'))
         self.data = db.data
 
     @staticmethod
